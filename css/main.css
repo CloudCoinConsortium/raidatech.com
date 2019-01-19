@@ -3,6 +3,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 body {
   display: flex;
   min-height: 100vh;
@@ -10,13 +11,13 @@ body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   line-height: 1.6em;
   font-weight: 400;
   color: #fff;
   background: #000;
 }
+
 main {
   flex: 1;
 }
@@ -25,15 +26,13 @@ main {
 01. GENERAL STYLE
 *===================================*/
 section {
-  // margin-top: 9em;
-  // margin-bottom: 9em;
-  &:first-child {
-    margin-top: 0;
-  }
-  &:last-child {
-    margin-bottom: 0;
-  }
   color: #94836c;
+}
+section:first-child {
+  margin-top: 0;
+}
+section:last-child {
+  margin-bottom: 0;
 }
 
 h1,
@@ -56,6 +55,7 @@ h6,
 .title {
   margin-bottom: 0.7125em;
 }
+
 .lead {
   line-height: 1.6;
 }
@@ -66,15 +66,18 @@ h6,
 .navbar.navbar-expand-lg {
   padding-top: 30px;
 }
+
 .nav-item {
   margin: 0 20px;
 }
+
 .navbar .navbar-nav .nav-link {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
   transition: 0.5s;
 }
+
 .navbar .navbar-nav .nav-link:hover {
   color: red;
 }
@@ -87,7 +90,6 @@ h6,
   height: 100vh;
   overflow: hidden;
   position: relative;
-  // background-image: url(http://xerotheme.com/keyra/01_theme/html/img/banner.jpg);
   background-image: url(https://res.cloudinary.com/overdrive/image/upload/v1540971664/images/raidatech%20email/cyber.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -119,8 +121,6 @@ h6,
   padding-top: 9em;
   padding-bottom: 9em;
 }
-#about p {
-}
 
 /*===================================*
 04. SOLUTIONS
@@ -128,39 +128,16 @@ h6,
 #solutions {
   padding-top: 9em;
   padding-bottom: 9em;
-  background-image: radial-gradient(
-    ellipse farthest-side at 100% 100%,
-    #1cafc6 20%,
-    #007fb2 50%,
-    #012690 110%
-  );
-  background-image: radial-gradient(
-    ellipse farthest-side at 100% 100%,
-    #e35039 20%,
-    #ff804d 50%,
-    #fed96f 110%
-  );
-  // red
-  background-image: radial-gradient(
-    ellipse farthest-side at 100% 100%,
-    #cc0000 20%,
-    #ff0000 50%,
-    #ff4d4d 110%
-  );
-
-  background-image: radial-gradient(
-    ellipse farthest-side at 100% 100%,
-    #5a2e7b 20%,
-    #9247a2 70%,
-    #6666bb 110%
-  );
-
-  .title {
-    color: #fff;
-  }
-  .lead {
-    color: rgba(255, 255, 255, 0.75);
-  }
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #1cafc6 20%, #007fb2 50%, #012690 110%);
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #e35039 20%, #ff804d 50%, #fed96f 110%);
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #cc0000 20%, #ff0000 50%, #ff4d4d 110%);
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #5a2e7b 20%, #9247a2 70%, #6666bb 110%);
+}
+#solutions .title {
+  color: #fff;
+}
+#solutions .lead {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .preamble {
@@ -170,24 +147,21 @@ h6,
 
 .service {
   margin-bottom: 30px;
-
-  img {
-    width: 45px;
-  }
-
-  h6 {
-    margin-top: 1.66rem;
-    color: #fff;
-  }
-  p {
-    color: rgba(255, 255, 255, 0.75);
-  }
+}
+.service img {
+  width: 45px;
+}
+.service h6 {
+  margin-top: 1.66rem;
+  color: #fff;
+}
+.service p {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /*===================================*
 05. CONTACT
 *===================================*/
-
 /*===================================*
 06. OUR TEAM
 *===================================*/
@@ -198,53 +172,45 @@ h6,
 
 .person {
   margin-bottom: 30px;
-
-  img {
-    width: 170px;
-  }
-
-  h6 {
-    margin-top: 1.66rem;
-    color: #fff;
-  }
-  p {
-    color: rgba(255, 255, 255, 0.75);
-  }
+}
+.person img {
+  width: 170px;
+}
+.person h6 {
+  margin-top: 1.66rem;
+  color: #fff;
+}
+.person p {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /*FOOTER*/
-
 .page-footer {
   padding-bottom: 3em;
   background: black;
   color: rgba(255, 255, 255, 0.5);
   border-bottom: 6px solid #a254dd;
-
-  .social-links {
-    margin: 0 1em;
-    display: flex;
-    justify-content: center;
-  }
-
-  .info {
-    padding: 1em 0;
-    display: flex;
-    justify-content: center;
-    margin: 0 1em;
-  }
-
-  a {
-    color: rgba(255, 255, 255, 0.9);
-    padding: 1em;
-  }
-
-  a:hover {
-    color: rgba(255, 255, 255, 1);
-  }
+}
+.page-footer .social-links {
+  margin: 0 1em;
+  display: flex;
+  justify-content: center;
+}
+.page-footer .info {
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 1em;
+}
+.page-footer a {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+}
+.page-footer a:hover {
+  color: white;
 }
 
 #back-to-top {
-  
   position: fixed;
   bottom: 20px;
   right: 30px;
