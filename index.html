@@ -44,9 +44,9 @@
   <body>
     <header id="site-header" class="fixed-top">
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark nav-normal">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand animated fadeInDown" href="#home">
         <img src="https://res.cloudinary.com/overdrive/image/upload/v1541317391/images/raidatech%20email/raidatech_logo2.png" height="30" class="d-inline-block align-top" alt="">
         
       </a>
@@ -57,19 +57,23 @@
           <div class="collapse navbar-collapse" id="navbar-content">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link animated fadeInDown" href="#home">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link animated fadeInDown" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#solutions">Solutions</a>
+                <a class="nav-link animated fadeInDown" href="#solutions">Solutions</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="#team">Our Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#team">Our Team</a>
+                <a class="nav-link animated fadeInDown" href="/faq.html">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link animated fadeInDown" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -82,8 +86,8 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 text-center">
-              <h1 class="mb-3 mb-lg-4 h2">Authenticity Solutions</h1>
-              <p class="lead mb-4">RAIDAtech has invented a new authentication protocol using post-blockchain technology called RAIDA (Redundant Array of Independent Detection Agents). RAIDA has data-supremacy like blockchain, meaning it cannot be brought down, controlled or
+              <h1 class="mb-3 mb-lg-4 h1 animated fadeInUp">Authenticity Solutions</h1>
+              <p class="lead mb-4 animated fadeInUp">RAIDAtech has invented a new authentication protocol using post-blockchain technology called RAIDA (Redundant Array of Independent Detection Agents). RAIDA has data-supremacy like blockchain, meaning it cannot be brought down, controlled or
                 manipulated. Yet RAIDA is faster, more secure, totally private, more energy efficient, quantum-safe and is scalable to the entire world's population. RAIDA was modeled after the DNS system, used daily by nearly every person on the planet and
                 without disruption since 1985. RAIDA does what blockchain just can't do. It is a provisionally patented, next-generation counterfeit detection system on a global scale.</p>
 
@@ -96,9 +100,23 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 text-center">
-              <h2 class="title">About RAIDAtech</h2>
-              <p class="lead">RAIDAtech is a research, technology and Solutions with Services (SwS) company with several core products/services, applications in development and applications in beta. RAIDAtech has exclusive license to develop applications for the provisionally-patented
+              <h2 class="title animation" data-animation="fadeInUp" data-animation-delay="0.2s">About RAIDAtech</h2>
+              <p class="lead animation" data-animation="fadeInUp" data-animation-delay="0.4">RAIDAtech is a research, technology and Solutions with Services (SwS) company with several core products/services, applications in development and applications in beta. RAIDAtech has exclusive license to develop applications for the provisionally-patented
                 RAIDA technology, a quantum-safe, self-healing, simple, fast and reliable global system for counterfeit detection and authentication.</p>
+            </div>
+          </div>
+          <div class="row counter">
+            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
+              <strong class="animation number" data-number="23000">23,000</strong>
+              <p>times faster than blockchain. Capable of at least 160,000 transactions per second. RAIDA grows more efficient as the network grows, while blockchain bogs down & is not scalable.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
+              <strong>3e+<span class="animation number" data-number="21">21</span></strong>
+              <p>Three-sextillion times stronger security than cryptography. RAIDA simply cannot be hacked.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
+              <strong class="animation number" data-number="41000">41,000</strong>
+              <p>times more energy efficient than blockchain. Affordable for users and good for the environment.</p>
             </div>
           </div>
         </div>
@@ -107,29 +125,29 @@
         <div class="container">
           <div class="row">
             <div class="preamble col-lg-8 offset-lg-2">
-              <h2 class="title">RAIDAtech Solutions</h2>
-              <p class="lead">RAIDAtech is developing a wide range of applications for RAIDA technology including secure cloud-based solutions for personal communications, financial services, information technology, business operations, education, healthcare and other fields.
+              <h2 class="title animation" data-animation="fadeInUp" data-animation-delay="0.2s">RAIDAtech Solutions</h2>
+              <p class="lead animation" data-animation="fadeInUp" data-animation-delay="0.4s">RAIDAtech is developing a wide range of applications for RAIDA technology including secure cloud-based solutions for personal communications, financial services, information technology, business operations, education, healthcare and other fields.
 
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541320011/images/raidatech.com/fingerprint.svg" alt="">
               <h6>Counterfeit Detection</h6>
               <p>Need to know if a document, product or person is authentic? Our next gen technologies can solve counterfeiting once and for all.</p>
             </div>
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="0.8s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541320888/images/raidatech.com/c.svg" alt="">
               <h6>Digital Rights Management</h6>
               <p>Pioneering information and control routing strategies with AI applications.</p>
             </div>
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541319662/images/raidatech.com/money.svg" alt="">
               <h6>Secure Financial Transactions</h6>
               <p>Creating new, more secure means of trading, protecting and utilizing financial assets.</p>
             </div>
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541320490/images/raidatech.com/hospital-buildings.svg" alt="">
               <h6>Privacy For Medical & Consumer Records</h6>
               <p>Protecting personal privacy while allowing better transmission of information.</p>
@@ -137,23 +155,23 @@
           </div>
 
           <div class="row">
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541318632/images/raidatech.com/correspondence.svg" alt="">
               <h6>Email, Chat & Text</h6>
               <p>Enabling secure & private communications.</p>
             </div>
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541320238/images/raidatech.com/video-player.svg" alt="">
               <h6>Video & Conferencing</h6>
               <p>Empowering encrypted, secure video storage and transmission.</p>
             </div>
 
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1547867906/images/raidatech.com/card.svg" alt="">
               <h6>Collectibles</h6>
               <p>Safeguarding digital or physical memorabilia, artworks, antiques and other collectibles</p>
             </div>
-            <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="service col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1547781572/images/raidatech.com/list.svg" alt="">
               <h6>Custom Solutions & More</h6>
               <p>Tailoring need-specific products and services. Contact RAIDAtech for a consultation.</p>
@@ -170,29 +188,44 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 text-center">
-              <h2 class="title">Our Team</h2>
+              <h2 class="title animation" data-animation="fadeInUp" data-animation-delay="0.2s">Our Team</h2>
             </div>
           </div>
           <div class="row mt-5">
-            <div class="person col-lg-3 col-md-6 col-sm-6 text-center">
-              <img src="https://pcmacanadaconferenceandawards.com/wp-content/uploads/2018/03/PCMA_CONF18_Keynotes_Headshots_WORTHINGTON_1139x1186-390x390.jpg" alt="">
-              <h6>Sean Worthington</h6>
-              <p>Founder and CEO</p>
+            <div class="person col-lg-12 col-md-12 col-sm-12 text-center">
+              <img src="https://raidatech.com/img/sean_worthington.jpg" alt="Sean Worthington" class="animation" data-animation="zoomIn" data-animation-delay="0.5s">
+              <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Sean Worthington</h6>
+              <p class="animation" data-animation="fadeInUp" data-animation-delay="0.7s">Founder and CEO</p>
+              <p class="animation" data-animation="fadeInUp" data-animation-delay="0.8s">Sean Worthington is a computer science professor turned philosopher, inventor and author. He has created the "Informational Theory of Perfect Money" and has developed the world’s first "discrete" digital cash that does not require public ledgers
+                or user accounts. His Startup company RAIDA Tech developed a proof of concept currency called "CloudCoin." CloudCoin is 10,000 times more energy efficient than block-chain based currencies, quantum-safe, and scalable. Worthington hopes to
+                license his technology to central banks because he says it is the best currency possible, and will save hundreds of billions in costs associated with physical cash. Learn more at <a href="http://seanworthington.com/">http://SeanWorthington.com</a>
+              </p>
             </div>
-            <div class="person col-lg-3 col-md-6 col-sm-6 text-center">
+          </div>
+          <div class="row mt-5">
+            <div class="person col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="0.4s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541700424/images/raidatech.com/ace.jpg" alt="">
               <h6>Ace Fogerson</h6>
-              <p>Director</p>
+              <p>Business Administration</p>
+              <p>Manages HR, Accounts Payable, Accounts Receivable, Legal etc.</p>
             </div>
-            <div class="person col-lg-3 col-md-6 col-sm-6 text-center">
-              <img src="https://res.cloudinary.com/overdrive/image/upload/v1541701272/images/raidatech.com/dipen.jpg" alt="">
-              <h6>Dipen Chauhan</h6>
-              <p>Web Developer</p>
-            </div>
-            <div class="person col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="person col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
               <img src="https://res.cloudinary.com/overdrive/image/upload/v1541700424/images/raidatech.com/serg.jpg" alt="">
               <h6>Sergiy Chernyshov</h6>
               <p>VP Development</p>
+              <p>Manages automated testing, QA, Client Development etc</p>
+            </div>
+            <div class="person col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+              <img src="https://raidatech.com/img/pramod-krishna.jpg" alt="Pramod Krishna">
+              <h6>Pramod Krishna</h6>
+              <p>Resident Representative</p>
+              <p>One of many field reps who provide world class service. <a href="http://www.pramodkrishna.in/">More</a></p>
+            </div>
+            <div class="person col-lg-3 col-md-6 col-sm-6 text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+              <img src="https://raidatech.com/img/yoshi2.jpg" alt="Pramod Krishna">
+              <h6>Yoshikazu Noda</h6>
+              <p>Server Developer</p>
+              <p>One of four developers who create the server-side software.</p>
             </div>
           </div>
         </div>
@@ -200,20 +233,14 @@
     </main>
 
     <footer class="page-footer">
-      <div class="social-links">
-        <a href="https://www.facebook.com/RAIDAtech/"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.youtube.com/channel/UCaqzThYCTyFS6pFYw4uMYSg/videos"><i class="fab fa-youtube"></i></a>
-      </div>
       <div class="info">
-        <div>© 2018 Copyright RAIDAtech<a href="mailto:info@raidatech.com">info@raidatech.com</a></div>
+        <div>© 2018 Copyright RAIDAtech <a href="https://www.facebook.com/RAIDAtech/"><i class="fab fa-facebook-f"></i></a><a href="mailto:info@raidatech.com">info@raidatech.com</a></div>
       </div>
       <div class="info">
         <div>Website Designed by <a href="https://github.com/overdrivemachines">Dipen Chauhan</a></div>
       </div>
       <a href="#home" id="back-to-top">
-     
         <i class="fa fa-arrow-circle-up"></i>
-     
       </a>
     </footer>
 
