@@ -19,7 +19,6 @@ body {
 01. GENERAL STYLE
 *===================================*/
 section {
-  color: #94836c;
   color: rgba(255, 255, 255, 0.7);
 }
 section:first-child {
@@ -43,11 +42,12 @@ h6,
 .h6 {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-weight: 700;
-  color: #b8b6a5;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .title {
   margin-bottom: 1.2em;
+  color: #fff;
 }
 
 .lead {
@@ -109,11 +109,19 @@ h6,
 .black-bg h4,
 .black-bg h5,
 .black-bg h6 {
-  color: #b8b6a5;
+  color: rgba(255, 255, 255, 0.7);
 }
 .black-bg p {
-  color: #94836c;
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a:hover {
+  color: #fff;
 }
 
 /*===================================*
@@ -262,10 +270,9 @@ h6,
   display: block;
   padding: 0.8em;
   line-height: 1;
-  color: #b8b6a5;
+  color: rgba(255, 255, 255, 0.7);
 }
 .counter p {
-  color: #94836c;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -305,6 +312,9 @@ h6,
 .service p {
   color: rgba(255, 255, 255, 0.75);
 }
+.service a {
+  text-decoration: underline;
+}
 
 /*===================================*
 05. CONTACT
@@ -317,7 +327,7 @@ h6,
   padding-bottom: 4.5em;
 }
 #team a {
-  color: #94836c;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: underline;
 }
 
@@ -390,7 +400,7 @@ h6,
 #faq h2.title {
   text-transform: uppercase;
   text-align: center;
-  color: white;
+  color: #fff;
   margin: 5em auto 5em auto;
 }
 #faq .accordion-container {
@@ -442,7 +452,7 @@ h6,
   padding-top: 3em;
   padding-bottom: 3em;
   background: black;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   border-bottom: 6px solid #a254dd;
 }
 .page-footer .info {
@@ -467,7 +477,7 @@ h6,
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #94836c;
+  background-color: rgba(255, 255, 255, 0.7);
   color: white;
   cursor: pointer;
   padding: 15px;
