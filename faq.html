@@ -48,14 +48,16 @@
 
   <body>
     <header id="site-header" class="fixed-top">
+
       <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark nav-normal">
         <div class="container">
-          <a class="navbar-brand animated fadeInDown" href="/index.html#home">
-            <img src="img/raidatech_logo2.png" height="30" class="d-inline-block align-top" alt="">
-          </a>
+          <a class="navbar-brand animated fadeInDown" href="index.html#home">
+        <img src="img/raidatech_logo2.png" height="30" class="d-inline-block align-top" alt="">
+        
+      </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
           <div class="collapse navbar-collapse" id="navbar-content">
             <ul class="navbar-nav ml-auto">
@@ -65,9 +67,20 @@
               <li class="nav-item">
                 <a class="nav-link animated fadeInDown" href="index.html#about">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link animated fadeInDown" href="index.html#solutions">Solutions</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle animated fadeInDown" href="#" id="solutions-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                <div class="dropdown-menu" aria-labelledby="solutions-dropdown">
+                  <a class="dropdown-item" href="index.html#solutions">All</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="digitalcash.html">Digital Cash</a>
+                  <a class="dropdown-item" href="collectibles.html">Collectibles</a>
+                  <a class="dropdown-item" href="consumables.html">Consumables</a>
+                </div>
               </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="#solutions">Solutions</a>
+              </li> -->
+
               <li class="nav-item">
                 <a class="nav-link animated fadeInDown" href="index.html#team">Our Team</a>
               </li>
@@ -80,6 +93,7 @@
             </ul>
           </div>
         </div>
+
       </nav>
     </header>
     <main>
