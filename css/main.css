@@ -124,6 +124,11 @@ a:hover {
   color: #fff;
 }
 
+hr {
+  /*background-color: #fff;*/
+  border-top: 2px dashed #8c8b8b;
+}
+
 /*===================================*
 02. HEADER
 *===================================*/
@@ -475,9 +480,32 @@ a:hover {
   margin: 5em auto 5em auto;
 }
 
-hr {
-  /*background-color: #fff;*/
-  border-top: 2px dashed #8c8b8b;
+/*===================================*
+10. CONSUMABLES
+*===================================*/
+#consumables {
+  background: url(../img/about_bg2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 7em;
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the accordion panel. Note: hidden by default */
+}
+#consumables .outer-container {
+  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), url(../img/store.jpg) center center no-repeat;
+  background-size: auto, 100%, 100% auto;
+}
+#consumables .container {
+  padding-top: 120px;
+}
+#consumables h2.title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin: 5em auto 5em auto;
 }
 
 /*===================================*
