@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RaidatechCom</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125974527-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125974527-3');
+    </script>
+    <title>RAIDATech</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Raida,RaidaTech,CloudCoin,BitShares,exchange,Cloud Currency">
+    <meta name="description" content="RAIDAtech has invented a new authentication protocol using post-blockchain technology called RAIDA (Redundant Array of Independent Detection Agents).">
+    <meta name="subject" content="">
+    <meta name="copyright"content="RAIDATech">
+    <meta name="language" content="EN">
+    <meta name="topic" content="">    
+    <meta name="author" content="Dipen Chauhan, info@cloudcoin.global">
+    <meta name="designer" content="Dipen Chauhan">
+    <meta name="reply-to" content="solutions@raidatech.com">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +32,66 @@
   </head>
 
   <body>
+    <header id="site-header" class="fixed-top">
+
+      <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark nav-normal">
+        <div class="container">
+          <a class="navbar-brand animated fadeInDown" href="#home">
+            <%= image_tag("raidatech_logo2.png", height: '30', class: "d-inline-block align-top") %>
+        
+      </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+          <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link animated fadeInDown" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle animated fadeInDown" href="#" id="solutions-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                <div class="dropdown-menu" aria-labelledby="solutions-dropdown">
+                  <a class="dropdown-item" href="#solutions">All</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="digitalcash.html">Digital Cash</a>
+                  <a class="dropdown-item" href="collectibles.html">Collectibles</a>
+                  <a class="dropdown-item" href="consumables.html">Consumables</a>
+                </div>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="#solutions">Solutions</a>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link animated fadeInDown" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+    </header>
     <%= yield %>
+    <footer class="page-footer">
+      <div class="info">
+        <div>© 2019 Copyright RAIDAtech <a href="https://www.facebook.com/RAIDAtech/"><i class="fab fa-facebook-f"></i></a><a href="mailto:solutions@raidatech.com">solutions@raidatech.com</a></div>
+      </div>
+      <div class="info">
+        <div>Website Designed by <a href="https://github.com/overdrivemachines">Dipen Chauhan</a></div>
+      </div>
+      <a href="#home" id="back-to-top">
+        <i class="fa fa-arrow-circle-up"></i>
+      </a>
+    </footer>
   </body>
 </html>
