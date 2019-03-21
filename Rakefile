@@ -5,6 +5,8 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
+# From
+# https://nowaker.net/post/ruby-on-rails-a-static-site-generator.html
 namespace :static do
   desc 'Generate static site in ./out/ directory'
   task :generate do
