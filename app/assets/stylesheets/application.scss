@@ -15,6 +15,7 @@
  */
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "font-awesome-sprockets";
 @import "font-awesome";
 @import "animate.min";
 
@@ -459,7 +460,7 @@ a:hover {color: #fff;}
 09. COLLECTIBLES
 *===================================*/
 #collectibles {
-  background: url(../img/about_bg2.png) no-repeat center center fixed;
+  background: image-url('about_bg2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -470,7 +471,7 @@ a:hover {color: #fff;}
   /* Style the accordion panel. Note: hidden by default */
 }
 #collectibles .outer-container {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), url(../img/baseball-cards.jpg) center center no-repeat;
+  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('baseball-cards.jpg') center center no-repeat;
   background-size: auto, 100%, 100% auto;
 }
 #collectibles .container {
@@ -487,7 +488,7 @@ a:hover {color: #fff;}
 10. CONSUMABLES
 *===================================*/
 #consumables {
-  background: url(../img/about_bg2.png) no-repeat center center fixed;
+  background: image-url('about_bg2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -498,7 +499,7 @@ a:hover {color: #fff;}
   /* Style the accordion panel. Note: hidden by default */
 }
 #consumables .outer-container {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), url(../img/store.jpg) center center no-repeat;
+  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('store.jpg') center center no-repeat;
   background-size: auto, 100%, 100% auto;
 }
 #consumables .container {
@@ -515,7 +516,7 @@ a:hover {color: #fff;}
 11. DIGITAL CASH
 *===================================*/
 #digital-cash {
-  background: url(../img/about_bg2.png) no-repeat center center fixed;
+  background: image-url('about_bg2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -526,7 +527,7 @@ a:hover {color: #fff;}
   /* Style the accordion panel. Note: hidden by default */
 }
 #digital-cash .outer-container {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), url(../img/digital-cash.jpg) center center no-repeat;
+  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('digital-cash.jpg') center center no-repeat;
   background-size: auto, 100%, 100% auto;
 }
 #digital-cash .container {
@@ -540,7 +541,34 @@ a:hover {color: #fff;}
 }
 
 /*===================================*
-10. FOOTER
+12. DIGITAL SECURITIES
+*===================================*/
+#digital-securities {
+  background: image-url('about_bg2.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 7em;
+
+  .outer-container {
+    background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('cyber-security.jpg') center center no-repeat;
+    background-size: auto, 100%, 100% auto;
+  }
+  .container {
+    padding-top: 120px;
+  }
+  h2.title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 5em auto 5em auto;
+  }
+}
+
+/*===================================*
+13. FOOTER
 *===================================*/
 
 .page-footer {
