@@ -568,7 +568,34 @@ a:hover {color: #fff;}
 }
 
 /*===================================*
-13. FOOTER
+13. CONTACT US
+*===================================*/
+#contact {
+  padding-top: 5em;
+  padding-bottom: 6em;
+  background-image: radial-gradient(
+    ellipse farthest-side at 100% 100%,
+    #5a2e7b 20%,
+    #9247a2 70%,
+    #6666bb 110%
+  );
+
+  .title {
+    color: #fff;
+  }
+  .lead {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 3em;
+
+    a {
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
+}
+
+/*===================================*
+14. FOOTER
 *===================================*/
 
 .page-footer {
@@ -586,8 +613,11 @@ a:hover {color: #fff;}
   }
 
   a {
-    color: rgba(255, 255, 255, 0.9);
-    padding: 1em;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0.667em;
+    i {
+      font-size: 1.667em;
+    }
   }
 
   a:hover {
