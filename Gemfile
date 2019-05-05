@@ -60,6 +60,8 @@ group :development do
 
   # https://github.com/ctran/annotate_models
   gem 'annotate'
+
+  gem 'heel' # used to server the static site from the /out directory
 end
 
 
