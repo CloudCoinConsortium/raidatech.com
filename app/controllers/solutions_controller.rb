@@ -1,4 +1,7 @@
 class SolutionsController < ApplicationController
+  def packaging
+  end
+
   def collectibles
   end
 

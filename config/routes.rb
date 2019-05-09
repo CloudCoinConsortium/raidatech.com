@@ -16,6 +16,7 @@
 
 Rails.application.routes.draw do
   root "welcome#index"
+  get 'solutions/packaging.html', to: "solutions#packaging", as: "solutions_packaging"
   get 'solutions/collectibles.html', to: "solutions#collectibles", as: "solutions_collectibles"
   get 'solutions/consumables.html', to: "solutions#consumables", as: "solutions_consumables"
   get 'solutions/digital_cash.html', to: "solutions#digital_cash", as: "solutions_digital_cash"
