@@ -457,93 +457,10 @@ a:hover {color: #fff;}
 }
 
 /*===================================*
-09. COLLECTIBLES
+GENERAL PAGE SECTION
 *===================================*/
-#collectibles {
-  background: image-url('about_bg2.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  padding-bottom: 7em;
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* Style the accordion panel. Note: hidden by default */
-}
-#collectibles .outer-container {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('baseball-cards.jpg') center center no-repeat;
-  background-size: auto, 100%, 100% auto;
-}
-#collectibles .container {
-  padding-top: 120px;
-}
-#collectibles h2.title {
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  margin: 5em auto 5em auto;
-}
-
-/*===================================*
-10. CONSUMABLES
-*===================================*/
-#consumables {
-  background: image-url('about_bg2.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  padding-bottom: 7em;
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* Style the accordion panel. Note: hidden by default */
-}
-#consumables .outer-container {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('store.jpg') center center no-repeat;
-  background-size: auto, 100%, 100% auto;
-}
-#consumables .container {
-  padding-top: 120px;
-}
-#consumables h2.title {
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  margin: 5em auto 5em auto;
-}
-
-/*===================================*
-11. DIGITAL CASH
-*===================================*/
-#digital-cash {
-  background: image-url('about_bg2.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  padding-bottom: 7em;
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* Style the accordion panel. Note: hidden by default */
-}
-#digital-cash .outer-container {
-  background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('digital-cash.jpg') center center no-repeat;
-  background-size: auto, 100%, 100% auto;
-}
-#digital-cash .container {
-  padding-top: 120px;
-}
-#digital-cash h2.title {
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  margin: 5em auto 5em auto;
-}
-
-/*===================================*
-12. DIGITAL SECURITIES
-*===================================*/
-#digital-securities {
+.ps {
+  // image of random squares and cirlces
   background: image-url('about_bg2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -553,17 +470,137 @@ a:hover {color: #fff;}
   padding-bottom: 7em;
 
   .outer-container {
-    background: radial-gradient(ellipse farthest-side at 100% 100%, rgba(90, 46, 123, 0.9) 20%, rgba(146, 71, 162, 0.9) 50%, rgba(102, 102, 187, 0.9) 110%), image-url('cyber-security.jpg') center center no-repeat;
+    // default background for header/title
+    background: radial-gradient(ellipse farthest-side at 100% 100%, 
+      rgba(90, 46, 123, 0.9) 20%, 
+      rgba(146, 71, 162, 0.9) 50%, 
+      rgba(102, 102, 187, 0.9) 110%), 
+    image-url('baseball-cards.jpg') center center no-repeat;
     background-size: auto, 100%, 100% auto;
   }
+
   .container {
     padding-top: 120px;
   }
+
   h2.title {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
     margin: 5em auto 5em auto;
+  }
+}
+
+/*===================================*
+09. PACKAGING
+*===================================*/
+#packaging {
+  .outer-container {
+    background: radial-gradient(ellipse farthest-side at 100% 100%, 
+      rgba(90, 46, 123, 0.6) 20%, 
+      rgba(146, 71, 162, 0.6) 50%, 
+      rgba(102, 102, 187, 0.6) 110%), 
+    image-url('package-line.jpg') center center no-repeat;
+    background-size: auto, 100%, 100% auto;
+  }
+
+  .check-list-container {
+    padding: 1em;
+    margin: 0 auto 2em auto;
+    max-width: 500px;
+    background-color: #85144b;
+    color: hsla(331, 74%, 70%, 1.0);
+    border-radius: 7px;
+  }
+
+  .check-list {
+    margin-bottom: 0;
+  }
+  .check-list li {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .application-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+    li {
+      width: 250px;
+      display: block;
+      padding: 1em;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 56px;
+        padding-right: 1em;
+      }
+    }
+  }
+
+  // .split-list {
+  //   height: 150px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   flex-wrap: wrap;
+  // }
+}
+
+/*===================================*
+09. COLLECTIBLES
+*===================================*/
+#collectibles .outer-container {
+  background: radial-gradient(ellipse farthest-side at 100% 100%, 
+    rgba(90, 46, 123, 0.6) 20%, 
+    rgba(146, 71, 162, 0.6) 50%, 
+    rgba(102, 102, 187, 0.6) 110%), 
+  image-url('baseball-cards.jpg') center center no-repeat;
+  background-size: auto, 100%, 100% auto;
+}
+
+
+/*===================================*
+10. CONSUMABLES
+*===================================*/
+#consumables .outer-container {
+  background: radial-gradient(ellipse farthest-side at 100% 100%, 
+    rgba(90, 46, 123, 0.6) 20%, 
+    rgba(146, 71, 162, 0.6) 50%, 
+    rgba(102, 102, 187, 0.6) 110%), 
+    image-url('store.jpg') center center no-repeat;
+  background-size: auto, 100%, 100% auto;
+}
+
+/*===================================*
+11. DIGITAL CASH
+*===================================*/
+#digital-cash .outer-container {
+  background: radial-gradient(ellipse farthest-side at 100% 100%, 
+    rgba(90, 46, 123, 0.6) 20%, 
+    rgba(146, 71, 162, 0.6) 50%, 
+    rgba(102, 102, 187, 0.6) 110%), 
+    image-url('digital-cash.jpg') center center no-repeat;
+  background-size: auto, 100%, 100% auto;
+}
+
+/*===================================*
+12. DIGITAL SECURITIES
+*===================================*/
+#digital-securities {
+  .outer-container {
+    background: radial-gradient(ellipse farthest-side at 100% 100%, 
+      rgba(90, 46, 123, 0.6) 20%, 
+      rgba(146, 71, 162, 0.6) 50%, 
+      rgba(102, 102, 187, 0.6) 110%), 
+    image-url('cyber-security.jpg') center center no-repeat;
+    background-size: auto, 100%, 100% auto;
   }
 }
 
