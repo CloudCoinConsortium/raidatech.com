@@ -21,7 +21,7 @@ Rails.application.routes.draw do
   get 'solutions/consumables.html', to: "solutions#consumables", as: "solutions_consumables"
   get 'solutions/digital_cash.html', to: "solutions#digital_cash", as: "solutions_digital_cash"
   get 'solutions/digital_securities.html', to: "solutions#digital_securities", as: "solutions_digital_securities"
-  get 'solutions/customer_engagement.html', to: "solutions#customer_engagement", as: "solutions_customer_engagement_securities"
+  get 'solutions/customer_engagement.html', to: "solutions#customer_engagement", as: "solutions_customer_engagement"
   get 'index.html', to: "welcome#index", as: "index"
   get 'faq.html', to: "welcome#faq", as: "faq"
   # get 'welcome/faq'
