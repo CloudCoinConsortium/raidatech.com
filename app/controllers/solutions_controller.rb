@@ -13,4 +13,7 @@ class SolutionsController < ApplicationController
 
   def digital_securities
   end
+
+  def customer_engagement
+  end
 end
