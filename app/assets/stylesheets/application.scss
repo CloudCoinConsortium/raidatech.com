@@ -639,6 +639,20 @@ GENERAL PAGE SECTION
 }
 
 /*===================================*
+13. CUSTOMER ENGAGEMENT
+*===================================*/
+#customer-engagement {
+  .outer-container {
+    background: radial-gradient(ellipse farthest-side at 100% 100%, 
+      rgba(90, 46, 123, 0.2) 20%, 
+      rgba(146, 71, 162, 0.2) 50%, 
+      rgba(102, 102, 187, 0.2) 110%), 
+    image-url('hand_shake.jpg') center center no-repeat;
+    background-size: auto, 100%, 100% auto;
+  }
+}
+
+/*===================================*
 13. CONTACT US
 *===================================*/
 #contact {
