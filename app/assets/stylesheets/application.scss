@@ -472,6 +472,10 @@ GENERAL PAGE SECTION
   height: 100%;
   padding-bottom: 7em;
 
+  @media only screen and (max-width: 768px) {
+    background: none;
+  }
+
   b {
     font-weight: 700;
   }
@@ -681,6 +685,12 @@ GENERAL PAGE SECTION
     letter-spacing: 6px;
   }
 
+  @media only screen and (max-width: 768px) {
+    ul {
+      padding-left: 0;
+    }
+  }
+
   .problems-list {
     display: flex;
     list-style: none;
@@ -833,6 +843,12 @@ GENERAL PAGE SECTION
     }
     img {
       max-width: 100%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      ul {
+        padding-left: 2em;
+      }
     }
   }
 
