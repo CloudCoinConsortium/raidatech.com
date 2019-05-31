@@ -16,4 +16,7 @@ class SolutionsController < ApplicationController
 
   def customer_engagement
   end
+
+  def medical_adherence
+  end
 end

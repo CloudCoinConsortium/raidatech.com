@@ -22,6 +22,7 @@ Rails.application.routes.draw do
   get 'solutions/digital_cash.html', to: "solutions#digital_cash", as: "solutions_digital_cash"
   get 'solutions/digital_securities.html', to: "solutions#digital_securities", as: "solutions_digital_securities"
   get 'solutions/customer_engagement.html', to: "solutions#customer_engagement", as: "solutions_customer_engagement"
+  get 'solutions/medication_adherence.html', to: "solutions#medication_adherence", as: "solutions_medication_adherence"
   get 'index.html', to: "welcome#index", as: "index"
   get 'faq.html', to: "welcome#faq", as: "faq"
   # get 'welcome/faq'
