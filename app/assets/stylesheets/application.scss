@@ -855,7 +855,41 @@ GENERAL PAGE SECTION
 }
 
 /*===================================*
-13. CONTACT US
+14. MEDICATION ADHERENCE
+*===================================*/
+#medication-adherence {
+  .outer-container {
+    background: radial-gradient(
+        ellipse farthest-side at 100% 100%,
+        rgba(90, 46, 123, 0.2) 20%,
+        rgba(146, 71, 162, 0.2) 50%,
+        rgba(102, 102, 187, 0.2) 110%
+      ),
+      image-url("medication_adherence_bg.jpg")
+        center center no-repeat;
+    background-size: auto, 100%, 100% auto;
+  }
+
+  h3.title {
+    text-align: center;
+  }
+  h3 .sub {
+    font-size: 0.667em;
+    display: block;
+    padding: 1em;
+    line-height: 1.6;
+  }
+  h3.title-xl {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+    color: #fff;
+    letter-spacing: 6px;
+  }
+}
+
+/*===================================*
+15. CONTACT US
 *===================================*/
 #contact {
   padding-top: 5em;
@@ -882,7 +916,7 @@ GENERAL PAGE SECTION
 }
 
 /*===================================*
-14. FOOTER
+16. FOOTER
 *===================================*/
 
 .page-footer {
