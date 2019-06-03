@@ -887,14 +887,17 @@ GENERAL PAGE SECTION
     letter-spacing: 6px;
   }
 
+
   .mi {
     max-width: 767px;
     display: block;
     margin: 1em auto;
     text-align: center;
+  }
 
-    @media only screen and (max-width: 768px) {
-      width: 100%;
+  @media only screen and (max-width: 768px) {
+    .mi, .mi-container { 
+      max-width: 100%;
     }
   }
 
